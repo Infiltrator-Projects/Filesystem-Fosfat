@@ -3,7 +3,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R] /Count 11 >>
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R] /Count 28 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -12,9 +12,349 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
 endobj
 6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1245 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Scope and evidence) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Fosfat is the name of a reader for the native Smaky FOS filesystem, not a) Tj
+T* (Microsoft FAT variant. Smaky computers were developed in Switzerland; the) Tj
+T* (media contain a boot region, system catalogue, file-list records, block) Tj
+T* (descriptors and data tranches. Mathieu Schroeter's libfosfat credits Pierre) Tj
+T* (Arnaud and Epsitec for assistance and documentation. The following field) Tj
+T* (descriptions are independently expressed from the pinned libfosfat reader,) Tj
+T* (commit 289c7eb838dd5e6305c98f09aa375746a6043d86, libfosfat/fosfat.c. They) Tj
+T* (establish a reader-oriented description, not the complete proprietary) Tj
+T* (original writer specification. Unknown fields must be preserved and native) Tj
+T* (free-space, formatting and transactional algorithms remain unresolved.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 1 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1374 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Address units and media detection) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Logical FOS blocks contain 256 bytes. Multi-byte numeric fields use) Tj
+T* (big-endian byte order. All offsets in the field inventories below are) Tj
+T* (zero-based byte offsets within their containing record, unless stated) Tj
+T* (otherwise. An image-relative block address equals \(logical block number +) Tj
+T* (boot blocks\) times 256. Floppy media use 16 boot blocks and hard disks use 32) Tj
+T* (in the reference reader. The logical system-list descriptor is block 1 and) Tj
+T* (its first list block is block 2. For floppy media these lie at byte offsets) Tj
+T* (4352 and 4608, respectively; for hard disks they lie at 8448 and 8704. A) Tj
+T* (probe must bound both candidate addresses, confirm that the descriptor) Tj
+T* (references block 2, and compare the four-byte check identifiers. Do not infer) Tj
+T* (geometry from file extension alone; report ambiguity if multiple) Tj
+T* (interpretations satisfy checks.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 2 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1195 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Volume block zero) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Logical block 0 has 256 bytes. Offset 0 length 44 is the system-folder) Tj
+T* (material; offset 44 length 16 is the disk name; offset 60 length 4 is the) Tj
+T* (check identifier; offset 64 length 172 is message material. Offset 236 is the) Tj
+T* (change indicator, 237 the boot-check indicator, 238 length 4 the old check) Tj
+T* (identifier, 242 length 4 the new check identifier, and 246 length 10) Tj
+T* (reserved. The upstream names do not establish a safe transition protocol. Do) Tj
+T* (not rewrite the change fields or regenerate check identifiers from) Tj
+T* (assumptions. Interpret the bounded name and retain raw bytes. The actual disk) Tj
+T* (size must be obtained from the supplied medium rather than extrapolated from) Tj
+T* (a name or message.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 3 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1173 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Block-list catalogue layout) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Each block list \(BL\) contains four 60-byte file records occupying offsets 0,) Tj
+T* (60, 120 and 180. Offset 240 is a four-byte next-BL number, 244 the four-byte) Tj
+T* (check identifier, 248 the four-byte previous-BL number and 252 four reserved) Tj
+T* (bytes. Block descriptor runs enumerate directory list blocks in the reference) Tj
+T* (reader; the next/previous fields are additional consistency evidence rather) Tj
+T* (than justification to follow arbitrary addresses. Check that catalogue blocks) Tj
+T* (lie inside the volume and are not boot sectors. When both descriptor) Tj
+T* (traversal and catalogue links are available, compare them and flag) Tj
+T* (contradictions; do not repair by guessing which is correct.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 4 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 1250 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (File record field inventory) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(In each 60-byte BL record: offset 0 length 16 name; 16 type; 17 open state;) Tj
+T* (18 length 4 attributes; 22 length 4 length in blocks; 26 length 2 last-block) Tj
+T* (length; 28 length 3 creation date; 31 length 3 creation time; 34 length 3) Tj
+T* (write date; 37 length 3 write time; 40 length 3 read date; 43 length 3 read) Tj
+T* (time; 46 length 3 security identifier; 49 close-mode field; 50 length 4 block) Tj
+T* (descriptor pointer; 54 length 4 byte length; 58 length 2 code field. Names) Tj
+T* (are bounded byte strings, not assumed UTF-8. A zero first name byte is used) Tj
+T* (by libfosfat as a deleted-record indicator; distinguish blank slots and) Tj
+T* (damaged records before recovery. The byte length is the reported logical) Tj
+T* (size. Compare it against actual descriptor coverage.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 5 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 1318 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Block descriptor field inventory) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(A block descriptor \(BD\) contains 256 bytes. Offset 0 length 4 next) Tj
+T* (descriptor, 4 length 4 previous descriptor, 8 length 2 tranche count, 10) Tj
+T* (length 168 array of 42 four-byte starting blocks, 178 length 16 name, 194) Tj
+T* (length 42 array of 42 one-byte block counts, 236 length 4 reserved, 240) Tj
+T* (length 2 last tranche byte count, 242 length 2 hash field, 244 length 2) Tj
+T* (number of BL blocks, 246 length 4 check identifier, 250 length 4) Tj
+T* (prior-descriptor block offset, 254 length 2 reserved. Reject counts greater) Tj
+T* (than 42 before accessing the arrays. For each populated index, decode the) Tj
+T* (start and count together. Check that each run ends within the image and does) Tj
+T* (not overlap metadata unless the object is itself a directory. Follow) Tj
+T* (next-descriptor links until zero, with cycle and length bounds.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 6 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 1328 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (File data translation and example) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Within a regular file, each populated tranche represents consecutive 256-byte) Tj
+T* (data blocks. Traverse descriptors and their tranche arrays in logical order.) Tj
+T* (The pinned reader uses the BD's final byte count for the last block of the) Tj
+T* (final tranche in each descriptor, rather than blindly treating all allocated) Tj
+T* (blocks as full. Require that count to be within 0..256 and reconcile with the) Tj
+T* (BL record's byte length. Example: a two-block tranche starting at block 100) Tj
+T* (on floppy media begins at byte 29696. If the final byte count is 20, its) Tj
+T* (logical coverage is 276 bytes; the last 20 bytes start at byte 29952. For) Tj
+T* (random reads, subtract preceding tranche coverage from the requested offset) Tj
+T* (and intersect the remaining range with the current run. The result must never) Tj
+T* (contain slack bytes beyond EOF.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 7 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 1251 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Directory hierarchy and names) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(The system list is the catalogue entry point. A directory's BD describes runs) Tj
+T* (of BL blocks, not ordinary file data. Enumerate four records per BL, apply) Tj
+T* (native visibility and object-type rules, and resolve nested directory) Tj
+T* (descriptors through their recorded pointers. The same system-list reference) Tj
+T* (can recur within a directory; a recursive enumerator must track visited) Tj
+T* (descriptor identities and treat repeated system references appropriately.) Tj
+T* (Case-insensitive comparison and lowercasing are behaviours of the reference) Tj
+T* (host reader; preserve native spelling and avoid inventing a case-folding or) Tj
+T* (character-set table. Resolve paths component by component, never by treating) Tj
+T* (a directory byte length as a conventional inode count.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 8 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 1338 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Attributes, dates and symbolic references) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(The attribute word has observed flags at bit 0 exclusive open, 1 multiple) Tj
+T* (open, 12 directory, 13 visible, 17 encoded and 24 link. The reference tests) Tj
+T* (the type byte against mask 0xF8 for system classification. Preserve all other) Tj
+T* (flags and the security and open-state fields. Dates are packed BCD day,) Tj
+T* (month, two-digit year; times are BCD hour, minute, second. The host reader) Tj
+T* (interprets years below 70 as 2000 onward and other years as 1900 onward; that) Tj
+T* (pivot is a host policy, not a stored century. Validate decimal nibbles and) Tj
+T* (calendar ranges. For link objects the reference reader starts the path at) Tj
+T* (byte 3 of the first data block, translates colons to slashes and trims the) Tj
+T* (final slash-delimited component. Treat this as observed conversion, not a) Tj
+T* (complete native link encoding specification.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 9 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 25 0 R >>
+endobj
+25 0 obj
+<< /Length 1409 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Allocation, integrity and recovery boundaries) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Reachable allocation can be reconstructed by recording every catalogue,) Tj
+T* (descriptor and payload run, checking duplicate ownership, range violations,) Tj
+T* (conflicting metadata and inconsistent file sizes. That reconstruction is not) Tj
+T* (a native free-space map: unreferenced blocks may be reserved, orphaned or) Tj
+T* (otherwise allocated. The reference reader compares check identifiers across) Tj
+T* (BL and BD structures; this is not evidence of a payload CRC, journal or) Tj
+T* (atomic commit. A forensic tool should preserve the raw image, report all) Tj
+T* (contradictions, and extract recoverable file data into a separate) Tj
+T* (destination. Deleted entries may retain descriptor addresses but blocks can) Tj
+T* (already have been reassigned. Do not infer the original free-list format,) Tj
+T* (allocation algorithms, check-number transition, media formatting or write) Tj
+T* (ordering from the read-only implementation.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 10 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 27 0 R >>
+endobj
+27 0 obj
+<< /Length 1307 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Independent reader validation) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Use authentic floppy and hard-disk images as fixtures, with the pinned) Tj
+T* (libfosfat reader as a comparison oracle. Verify block-size and boot-prefix) Tj
+T* (detection, all four BL slots, multi-descriptor and multi-tranche files, final) Tj
+T* (partial blocks, nested directories, repeated system references, deleted names) Tj
+T* (and BCD dates. Inject truncated blocks, a tranche count of 43, cyclic) Tj
+T* (descriptors, out-of-range runs, inconsistent check identifiers and mismatched) Tj
+T* (file lengths. Record image hashes before and after read-only operation.) Tj
+T* (Compare directory names, byte lengths and extracted payload hashes. A native) Tj
+T* (writer, formatter, repairer or defragmenter requires original allocator and) Tj
+T* (recovery evidence before qualification; an independent reader does not) Tj
+T* (establish those capabilities.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 11 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 29 0 R >>
+endobj
+29 0 obj
+<< /Length 1202 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Reference and remaining research) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(Primary implementation evidence:) Tj
+T* (https://github.com/Skywalker13/Fosfat/blob/289c7eb838dd5e6305c98f09aa375746a) Tj
+T* (6043d86/libfosfat/fosfat.c . Relevant functions include media detection,) Tj
+T* (block-list and descriptor decoding, file extraction, directory enumeration) Tj
+T* (and attribute conversion. Original Smaky documentation and known native) Tj
+T* (images should be used to verify field meanings, especially the block-zero) Tj
+T* (transition fields, system allocation, the hash and code fields, and native) Tj
+T* (write ordering. No source-code listing is reproduced here. This chapter does) Tj
+T* (not claim that the Infiltrator provider implements or passes any operation;) Tj
+T* (historical documents follow for provenance.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 12 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+30 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 31 0 R >>
+endobj
+31 0 obj
+<< /Length 598 >>
+stream
+0.05 0.13 0.22 rg 0 749 595 93 re f
+0.01 0.52 0.56 rg 50 747 116 5 re f
+1 1 1 rg BT /F2 11 Tf 50 807 Td (INFILTRATOR / FILESYSTEM ENGINEERING REFERENCE) Tj ET
+BT /F2 21 Tf 50 775 Td (Fosfat - technical reference) Tj ET
+0.05 0.13 0.22 rg BT /F2 16 Tf 50 715 Td (Historical reference appendices) Tj ET
+BT /F1 11 Tf 15 TL 50 685 Td
+(The following pages preserve both earlier documents. Their dated status) Tj
+T* (claims do not establish current implementation or qualification.) Tj
+ET
+0.05 0.13 0.22 rg BT /F1 9 Tf 50 42 Td (Engineering chapter 13 | Original format, not provider qualification) Tj ET
+endstream
+endobj
+32 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 33 0 R >>
+endobj
+33 0 obj
 << /Length 1654 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -41,10 +381,10 @@ BT /F2 11 Tf 1 1 1 rg 1 0 0 1 313 457 Tm (Data chains) Tj ET
 BT /F2 10 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 404 Tm (History / architecture / allocation / integrity / implementation / tests) Tj ET
 endstream
 endobj
-7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+34 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 35 0 R >>
 endobj
-8 0 obj
+35 0 obj
 << /Length 1326 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -64,10 +404,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 582 Tm (provider.) Tj ET
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 552 Tm (https://github.com/Skywalker13/Fosfat) Tj ET
 endstream
 endobj
-9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+36 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 37 0 R >>
 endobj
-10 0 obj
+37 0 obj
 << /Length 1156 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -85,10 +425,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 628 Tm (semantics; consumers provide
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 612 Tm (parsers.) Tj ET
 endstream
 endobj
-11 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+38 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 39 0 R >>
 endobj
-12 0 obj
+39 0 obj
 << /Length 1345 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -107,10 +447,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 612 Tm (require exclusive access, ex
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 596 Tm (evidence. Read-only operations leave the medium unchanged.) Tj ET
 endstream
 endobj
-13 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+40 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 41 0 R >>
 endobj
-14 0 obj
+41 0 obj
 << /Length 1927 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -134,10 +474,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 532 Tm (write semantics before adver
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 516 Tm (cannot establish recovery.) Tj ET
 endstream
 endobj
-15 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+42 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 43 0 R >>
 endobj
-16 0 obj
+43 0 obj
 << /Length 1565 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -158,10 +498,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 580 Tm (import-free freestanding pro
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 564 Tm (environment-specific host services.) Tj ET
 endstream
 endobj
-17 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+44 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 45 0 R >>
 endobj
-18 0 obj
+45 0 obj
 << /Length 1862 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -184,10 +524,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 534 Tm (unmounted ownership before f
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 518 Tm (entropy service when the format needs a unique identity.) Tj ET
 endstream
 endobj
-19 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+46 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 47 0 R >>
 endobj
-20 0 obj
+47 0 obj
 << /Length 1996 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -211,10 +551,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 518 Tm (recovery require independent
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 502 Tm (interruption safety. Where not implemented they remain absent.) Tj ET
 endstream
 endobj
-21 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+48 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 49 0 R >>
 endobj
-22 0 obj
+49 0 obj
 << /Length 1427 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -234,10 +574,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 596 Tm (in BOOT and kernel. Use disp
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 580 Tm (test pass is claimed.) Tj ET
 endstream
 endobj
-23 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+50 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 51 0 R >>
 endobj
-24 0 obj
+51 0 obj
 << /Length 2197 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -263,10 +603,10 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 486 Tm (archive or DEB embedded. Rel
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 470 Tm (release exists yet.) Tj ET
 endstream
 endobj
-25 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+52 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 53 0 R >>
 endobj
-26 0 obj
+53 0 obj
 << /Length 2305 >>
 stream
 0.05 0.13 0.22 rg 0 749 595 93 re f
@@ -295,37 +635,214 @@ BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 396 Tm (outstanding. This is a sourc
 BT /F1 10.2 Tf 0.07 0.16 0.23 rg 1 0 0 1 50 380 Tm (original specification.) Tj ET
 endstream
 endobj
+54 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 55 0 R >>
+endobj
+55 0 obj
+<< /Length 2543 >>
+stream
+0.05 0.13 0.22 rg 0 750 595 92 re f
+0.03 0.53 0.58 rg 50 747 120 4 re f
+0.75 0.82 0.86 RG .7 w 50 49 m 545 49 l S
+BT /F2 9 Tf 0.62 0.88 0.91 rg 1 0 0 1 50 803 Tm (INFILTRATOR / FILESYSTEM DESIGN & QUALIFICATION) Tj ET
+BT /F2 17 Tf 1 1 1 rg 1 0 0 1 50 773 Tm (Fosfat - format and architecture) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 50 34 Tm (Filesystem-Fosfat | Design-stage reference | fc4e61289a14) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 505 34 Tm (PAGE 01) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 706 Tm (STATUS / DESIGN CONTRACT) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 681 Tm (This repository is at the design stage. No independent runtime provider, installation) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 665 Tm (package or qualified filesystem operations are claimed. This document is not an) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 649 Tm (installation or user manual.) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 614 Tm (Format scope) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 589 Tm (Smaky filesystem; Fosfat is the inherited implementation. This is a design contract,) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 573 Tm (not a claim of implemented capabilities.) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 538 Tm (On-disk structures and ownership) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 513 Tm (Smaky volume structures, directory/object decoding, allocation and data-chain) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 497 Tm (mapping as defined by the original implementation; exact supported variants require) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 481 Tm (documentation. The single native C/C++ engine owns these format semantics; consumers) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 465 Tm (provide bounded Common V2 host services, never competing parsers.) Tj ET
+BT /F2 11 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 430 Tm (Conceptual provider boundary \(planned\)) Tj ET
+0.91 0.95 0.96 rg 50 385 110 30 re f
+BT /F2 9 Tf 0.08 0.16 0.23 rg 1 0 0 1 57 396 Tm (Native media) Tj ET
+0.03 0.53 0.58 RG 1 w 162 400 m 176 400 l S
+0.91 0.95 0.96 rg 178 385 110 30 re f
+BT /F2 9 Tf 0.08 0.16 0.23 rg 1 0 0 1 185 396 Tm (Bounded host I/O) Tj ET
+0.03 0.53 0.58 RG 1 w 290 400 m 304 400 l S
+0.91 0.95 0.96 rg 306 385 110 30 re f
+BT /F2 9 Tf 0.08 0.16 0.23 rg 1 0 0 1 313 396 Tm (Native engine) Tj ET
+0.03 0.53 0.58 RG 1 w 418 400 m 432 400 l S
+0.91 0.95 0.96 rg 434 385 110 30 re f
+BT /F2 9 Tf 0.08 0.16 0.23 rg 1 0 0 1 441 396 Tm (Common V2) Tj ET
+endstream
+endobj
+56 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 57 0 R >>
+endobj
+57 0 obj
+<< /Length 1969 >>
+stream
+0.05 0.13 0.22 rg 0 750 595 92 re f
+0.03 0.53 0.58 rg 50 747 120 4 re f
+0.75 0.82 0.86 RG .7 w 50 49 m 545 49 l S
+BT /F2 9 Tf 0.62 0.88 0.91 rg 1 0 0 1 50 803 Tm (INFILTRATOR / FILESYSTEM DESIGN & QUALIFICATION) Tj ET
+BT /F2 17 Tf 1 1 1 rg 1 0 0 1 50 773 Tm (Fosfat - integrity and failure) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 50 34 Tm (Filesystem-Fosfat | Design-stage reference | fc4e61289a14) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 505 34 Tm (PAGE 02) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 706 Tm (Integrity and mutation invariants) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 681 Tm (Separate original libfosfat format code from the inherited FUSE presentation.) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 665 Tm (Validate record lengths, object references and chain termination before access. Do) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 649 Tm (not infer write or recovery support from read-only decoding. All arithmetic, offsets) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 633 Tm (and lengths are checked before I/O. Writable operations require exclusive access,) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 617 Tm (explicit ordering, flush and interruption/recovery evidence. Read-only operations) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 601 Tm (leave the medium unchanged.) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 566 Tm (Failure and ownership policy) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 541 Tm (Validate before following on-disk references. Unsupported feature combinations,) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 525 Tm (malformed media, unavailable operations and host failures are distinct outcomes.) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 509 Tm (Mutation requires the ownership and ordering conditions in the design; read-only) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 493 Tm (operations must leave the source image unchanged.) Tj ET
+endstream
+endobj
+58 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 59 0 R >>
+endobj
+59 0 obj
+<< /Length 2461 >>
+stream
+0.05 0.13 0.22 rg 0 750 595 92 re f
+0.03 0.53 0.58 rg 50 747 120 4 re f
+0.75 0.82 0.86 RG .7 w 50 49 m 545 49 l S
+BT /F2 9 Tf 0.62 0.88 0.91 rg 1 0 0 1 50 803 Tm (INFILTRATOR / FILESYSTEM DESIGN & QUALIFICATION) Tj ET
+BT /F2 17 Tf 1 1 1 rg 1 0 0 1 50 773 Tm (Fosfat - interface and qualification) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 50 34 Tm (Filesystem-Fosfat | Design-stage reference | fc4e61289a14) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 505 34 Tm (PAGE 03) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 706 Tm (Common V2 boundary) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 681 Tm (Only infiltrator_filesystem_api_v2 is public. Target the genuine) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 665 Tm (PROBE/MOUNT/UNMOUNT/STAT/LIST/READ operations first; negotiate actual) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 649 Tm (supported operation masks. VOLUME, METADATA and DEFRAG operations \(including) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 633 Tm (MAP, PLAN, EXECUTE, VERIFY, RECOVER\) are individually qualified or refused.) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 617 Tm (Test Media uses the same provider's qualified format and namespace operations. No) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 601 Tm (FUSE, legacy ABI, private driver or kernel proxy. Hosted and import-free) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 585 Tm (freestanding profiles share the format engine, with generic environment-specific host) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 569 Tm (services.) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 534 Tm (Independent qualification) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 509 Tm (Use original Smaky images and independent Fosfat reader comparisons; test malformed) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 493 Tm (chains and geometry. Preserve Skywalker13/Fosfat) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 477 Tm (289c7eb838dd5e6305c98f09aa375746a6043d86 provenance. Compare file bytes against) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 461 Tm (an independent oracle, hash unchanged read-only images, inject short I/O, corruption) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 445 Tm (and interruption; validate exact published module separately in BOOT and kernel. Use) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 429 Tm (disposable media only. No new independent binary or test pass is claimed.) Tj ET
+endstream
+endobj
+60 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 61 0 R >>
+endobj
+61 0 obj
+<< /Length 4554 >>
+stream
+0.05 0.13 0.22 rg 0 750 595 92 re f
+0.03 0.53 0.58 rg 50 747 120 4 re f
+0.75 0.82 0.86 RG .7 w 50 49 m 545 49 l S
+BT /F2 9 Tf 0.62 0.88 0.91 rg 1 0 0 1 50 803 Tm (INFILTRATOR / FILESYSTEM DESIGN & QUALIFICATION) Tj ET
+BT /F2 17 Tf 1 1 1 rg 1 0 0 1 50 773 Tm (Fosfat - engineering acceptance) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 50 34 Tm (Filesystem-Fosfat | Design-stage reference | fc4e61289a14) Tj ET
+BT /F1 8 Tf 0.34 0.4 0.44 rg 1 0 0 1 505 34 Tm (PAGE 04) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 706 Tm (Engineering and release acceptance) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 681 Tm (- A valid CORE descriptor with a real PROBE is mandatory. Every optional operation) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 665 Tm (has its own capability bit and non-null qualified callback; unavailable operations have) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 649 Tm (neither. Recognised format, unsupported feature, corruption, host I/O failure and) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 633 Tm (stale handles remain distinct outcomes. - Use Common's sector-aligned bounded byte) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 617 Tm (helpers. Validate partition extent, logical/physical sector geometry and maximum) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 601 Tm (transfer before reading. Serialize overlapping read/modify/write sectors; request) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 585 Tm (explicit flush barriers. Never infer exclusivity from flags alone; require real exclusive) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 569 Tm (unmounted ownership before formatting or raw mutation. Require the Common entropy) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 553 Tm (service when the format needs a unique identity. - Qualify hosted and import-free) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 537 Tm (freestanding profiles separately; enforce module identity and trust, exact export set) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 521 Tm (and actual packaged bytes. BOOT and kernel are generic loaders; BOOT uses the same) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 505 Tm (file in /EFI/InfiltratorOS/BOOT/drivers_x64/, with the installed canonical copy in) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 489 Tm (/System/Filesystems/. No per-format .ko/.efi, FUSE, proxy, legacy ABI, external) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 473 Tm (formatter or consumer-side parsing substitutes for the engine. - Test Media must) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 457 Tm (format and populate through actual V2 FORMAT/CREATE/WRITE operations; an) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 441 Tm (independent formatter/reader may be a test oracle only, never production fallback.) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 425 Tm (Defragmentation maps, plans, execution, verification and recovery require independent) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 409 Tm (proof of ownership, data preservation and interruption safety. Where not implemented) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 393 Tm (they remain absent. - New build and implementation code is native C/C++ and shell as) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 377 Tm (appropriate, no Python. The generic amd64 DEB and CPU-native source-downloading) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 361 Tm (RUN are the only manually published release assets; GitHub generates source) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 345 Tm (archives. RUN fetches exact versioned source and pinned Common dependency, verifies) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 329 Tm (integrity, compiles natively and installs the selected package; no source archive or) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 313 Tm (DEB embedded. Release immutable exact-main qualification only. No release exists yet.) Tj ET
+BT /F2 12 Tf 0.02 0.48 0.52 rg 1 0 0 1 50 278 Tm (Source and authority) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 253 Tm (Prepared from README.md and native/filesystems/fosfat/DESIGN.md at revision) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 237 Tm (fc4e61289a142e5e52a72f5b046420ae96deaf63. The editable Markdown design and) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 221 Tm (migration status are authoritative. No test result, release or implemented capability) Tj ET
+BT /F1 10.5 Tf 0.08 0.16 0.23 rg 1 0 0 1 50 205 Tm (is inferred from this reference.) Tj ET
+endstream
+endobj
 xref
-0 27
+0 62
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000184 00000 n 
-0000000254 00000 n 
-0000000329 00000 n 
-0000000465 00000 n 
-0000002170 00000 n 
-0000002306 00000 n 
-0000003683 00000 n 
-0000003820 00000 n 
-0000005028 00000 n 
-0000005166 00000 n 
-0000006563 00000 n 
-0000006701 00000 n 
-0000008680 00000 n 
-0000008818 00000 n 
-0000010435 00000 n 
-0000010573 00000 n 
-0000012487 00000 n 
-0000012625 00000 n 
-0000014673 00000 n 
-0000014811 00000 n 
-0000016290 00000 n 
-0000016428 00000 n 
-0000018677 00000 n 
-0000018815 00000 n 
+0000000304 00000 n 
+0000000374 00000 n 
+0000000449 00000 n 
+0000000517 00000 n 
+0000000663 00000 n 
+0000001959 00000 n 
+0000002105 00000 n 
+0000003530 00000 n 
+0000003678 00000 n 
+0000004925 00000 n 
+0000005073 00000 n 
+0000006298 00000 n 
+0000006446 00000 n 
+0000007748 00000 n 
+0000007896 00000 n 
+0000009266 00000 n 
+0000009414 00000 n 
+0000010794 00000 n 
+0000010942 00000 n 
+0000012245 00000 n 
+0000012393 00000 n 
+0000013783 00000 n 
+0000013931 00000 n 
+0000015392 00000 n 
+0000015540 00000 n 
+0000016899 00000 n 
+0000017047 00000 n 
+0000018301 00000 n 
+0000018449 00000 n 
+0000019098 00000 n 
+0000019246 00000 n 
+0000020952 00000 n 
+0000021100 00000 n 
+0000022478 00000 n 
+0000022626 00000 n 
+0000023834 00000 n 
+0000023982 00000 n 
+0000025379 00000 n 
+0000025527 00000 n 
+0000027506 00000 n 
+0000027654 00000 n 
+0000029271 00000 n 
+0000029419 00000 n 
+0000031333 00000 n 
+0000031481 00000 n 
+0000033529 00000 n 
+0000033677 00000 n 
+0000035156 00000 n 
+0000035304 00000 n 
+0000037553 00000 n 
+0000037701 00000 n 
+0000040058 00000 n 
+0000040206 00000 n 
+0000042801 00000 n 
+0000042949 00000 n 
+0000044970 00000 n 
+0000045118 00000 n 
+0000047631 00000 n 
+0000047779 00000 n 
 trailer
-<< /Size 27 /Root 1 0 R >>
+<< /Size 62 /Root 1 0 R >>
 startxref
-21172
+52385
 %%EOF

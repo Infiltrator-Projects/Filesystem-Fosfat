@@ -1,5 +1,9 @@
-# Fosfat development candidate
+# Fosfat development qualification
 
-Native Common V2 Smaky FOS reader with floppy and hard disk boot-area detection, check-ID validation, linked block descriptions, fragmented data and bounded directory lists. Hosted and AMD64 import-free targets share one engine. The original Fosfat format reference is retained centrally and credited in source.
+Native Smaky FOS reader: floppy/hard-disk geometry, checked BD/BL chains, fragmented files, nested directories, ASCII names and volume label. Encoded entries remain enumerable but encoded reads are refused. No allocation query; zero mount free bytes is not a measured free-space count.
 
-Initial profile is ASCII, unencoded, read-only. Link targets, MOS, deleted-file recovery, allocation maps, accurate free-space accounting, format, write, defragmentation, historical media and signed firmware qualification remain outstanding. Zero mount free bytes means no proven available writable capacity, not measured free space. QUERY and ALLOCATION are absent. Fixture success is not independent historical-media qualification.
+[Passing hosted, freestanding and sanitizer CI](https://github.com/Infiltrator-Projects/Filesystem-Fosfat/actions/runs/45972231768) at `4ece8bed7cdb39da35c8761ef23b5297ab0d39ca`.
+
+Constructed media only; historical Smaky media, MOS, non-ASCII names, link target decoding, allocation accounting and signed boot remain unqualified.
+
+No mutation, formatting, repair, defragmentation or production release is qualified. The BOOT development matrix separately tests its embedded firmware carrier and namespace reads; matrix inclusion alone is not a successful run or signed firmware boot evidence.

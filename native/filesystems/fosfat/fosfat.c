@@ -209,7 +209,7 @@ static Volume *mounted(void *p)
 {if(p)for(unsigned i=0;i<SLOTS;++i)if(slots[i].token==(uintptr_t)p)return &slots[i];return NULL;}
 static void info(const Volume *v,IfsFsVolumeInfoV2 *o)
 {*o=(IfsFsVolumeInfoV2){.structure_bytes=sizeof(*o),.variant=v->variant,.max_name_bytes=MAX_NAME,
-.block_bytes=256,.total_bytes=(uint64_t)256s*256,.free_bytes=0};}
+.block_bytes=256,.total_bytes=(uint64_t)v->blocks*256,.free_bytes=0};}
 static int probe_impl(const IfsFsHostRuntimeV2 *h,uint32_t *variant)
 {if(!variant)return IFS_FS_INVALID;Volume v={0};int rc=discover(h,&v);if(!rc)*variant=v.variant;dispose(&v);return rc;}
 static int mount_impl(const IfsFsHostRuntimeV2 *h,void **out,IfsFsVolumeInfoV2 *o)

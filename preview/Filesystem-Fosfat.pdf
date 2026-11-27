@@ -324,27 +324,27 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 33 0 R >>
 endobj
 33 0 obj
-<< /Length 2118 >>
+<< /Length 2098 >>
 stream
 0.06 0.15 0.23 rg 0 768 595 74 re f
 1 1 1 rg BT /F2 10 Tf 43 811 Td (INFILTRATOR / FILESYSTEM ENGINEERING) Tj ET
 BT /F2 22 Tf 43 784 Td (Fosfat - technical reference) Tj ET
 0.08 0.14 0.20 rg BT /F2 15 Tf 43 736 Td (13. Reference and remaining research) Tj ET
 0.08 0.14 0.20 rg BT /F3 10 Tf 43 706 Td (Primary implementation evidence:) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 692 Td (https://github.com/Skywalker13/Fosfat/blob/289c7eb838dd5e6305c98f09aa375746a6043d86) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 678 Td (/libfosfat/fosfat.c . Relevant functions include media detection, block-list and) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 664 Td (descriptor decoding, file extraction, directory enumeration and attribute) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 650 Td (conversion. Original Smaky documentation and known native images should be used to) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 636 Td (verify field meanings, especially the block-zero transition fields, system) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 622 Td (allocation, the hash and code fields, and native write ordering. No source-code) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 608 Td (listing is reproduced here. This chapter does not claim that the Infiltrator) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 594 Td (provider implements or passes any operation;) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 692 Td (https://github.com/Skywalker13/Fosfat/blob/289c7eb838dd5e6305c98f09aa375746a604) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 678 Td (3d86/libfosfat/fosfat.c . Relevant functions include media detection,) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 664 Td (block-list and descriptor decoding, file extraction, directory enumeration and) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 650 Td (attribute conversion. Original Smaky documentation and known native images) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 636 Td (should be used to verify field meanings, especially the block-zero transition) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 622 Td (fields, system allocation, the hash and code fields, and native write ordering.) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 608 Td (No source-code listing is reproduced here. This chapter does not establish) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 594 Td (provider implementation or qualification.) Tj ET
 0.08 0.14 0.20 rg BT /F3 10 Tf 43 570 Td (Preserved upstream baseline: Skywalker13/Fosfat) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 556 Td (289c7eb838dd5e6305c98f09aa375746a6043d86; original Smaky images are required for) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 542 Td (independent validation.) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 556 Td (289c7eb838dd5e6305c98f09aa375746a6043d86; original Smaky images are required) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 542 Td (for independent validation.) Tj ET
 0.08 0.14 0.20 rg BT /F3 10 Tf 43 518 Td (Retained source:) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 504 Td (https://github.com/Infiltrator-Projects/Filesystems/blob/101026021d9088d80b7f0f472d) Tj ET
-0.08 0.14 0.20 rg BT /F3 10 Tf 43 490 Td (9061f0e2c688a3/native/filesystems/fosfat/userspace/libfosfat/fosfat.c \(blob) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 504 Td (https://github.com/Infiltrator-Projects/Filesystems/blob/101026021d9088d80b7f0f) Tj ET
+0.08 0.14 0.20 rg BT /F3 10 Tf 43 490 Td (472d9061f0e2c688a3/native/filesystems/fosfat/userspace/libfosfat/fosfat.c \(blob) Tj ET
 0.08 0.14 0.20 rg BT /F3 10 Tf 43 476 Td (42ace99fea\).) Tj ET
 0.2 0.3 0.4 rg BT /F1 9 Tf 43 32 Td (Historical development and engineering reference | 14) Tj ET
 endstream
@@ -388,5 +388,5 @@ xref
 trailer
 << /Size 34 /Root 1 0 R >>
 startxref
-26517
+26497
 %%EOF

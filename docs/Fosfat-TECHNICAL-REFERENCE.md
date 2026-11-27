@@ -52,7 +52,7 @@ The independent provider uses Common V2: https://github.com/Infiltrator-Projects
 
 ## Reference and remaining research
 
-Primary implementation evidence: https://github.com/Skywalker13/Fosfat/blob/289c7eb838dd5e6305c98f09aa375746a6043d86/libfosfat/fosfat.c . Relevant functions include media detection, block-list and descriptor decoding, file extraction, directory enumeration and attribute conversion. Original Smaky documentation and known native images should be used to verify field meanings, especially the block-zero transition fields, system allocation, the hash and code fields, and native write ordering. No source-code listing is reproduced here. This chapter does not claim that the Infiltrator provider implements or passes any operation;
+Primary implementation evidence: https://github.com/Skywalker13/Fosfat/blob/289c7eb838dd5e6305c98f09aa375746a6043d86/libfosfat/fosfat.c . Relevant functions include media detection, block-list and descriptor decoding, file extraction, directory enumeration and attribute conversion. Original Smaky documentation and known native images should be used to verify field meanings, especially the block-zero transition fields, system allocation, the hash and code fields, and native write ordering. No source-code listing is reproduced here. This chapter does not establish provider implementation or qualification.
 
 Preserved upstream baseline: Skywalker13/Fosfat 289c7eb838dd5e6305c98f09aa375746a6043d86; original Smaky images are required for independent validation.
 

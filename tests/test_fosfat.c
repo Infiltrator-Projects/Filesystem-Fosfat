@@ -59,7 +59,10 @@ int main(int argc,char**argv)
         assert(core->directory_entry(v,"/",0,&e)==0&&!strcmp(name,"proof.bin"));
         assert(core->directory_entry(v,"/",1,&e)==0&&!strcmp(name,"dir"));
         assert(core->stat(v,"/link",&e)==0&&e.type==IFS_FS_ENTRY_LINK);
-        assert(core->stat(v,"/encoded",&e)==IFS_FS_UNSUPPORTED);
+        assert(core->stat(v,"/encoded",&e)==0&&e.type==IFS_FS_ENTRY_FILE&&e.size_bytes==1);
+        uint8_t encoded;assert(core->read(v,"/encoded",0,&encoded,1)==IFS_FS_UNSUPPORTED);
+        assert(core->directory_entry(v,"/",3,&e)==0&&!strcmp(name,"encoded"));
+        assert(core->directory_entry(v,"/",4,&e)==IFS_FS_END);
         assert(core->stat(v,"/PROOF.BIN",&e)==0&&e.size_bytes==2*B+17);
         uint8_t out[2*B+17];assert(core->read(v,"/proof.bin",0,out,sizeof out)==0&&!memcmp(out,blk(20),2*B)&&!memcmp(out+2*B,blk(30),17));
         assert(core->read(v,"/dir/child",0,out,3)==0&&!memcmp(out,"yes",3));

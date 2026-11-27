@@ -129,12 +129,12 @@ static int bl(const Volume*v,uint32_t start,uint32_t run,uint32_t size,void*ctx)
 static int child(const Volume*v,const Node*dir,const char*name_,uint32_t len,uint32_t index,Entry*out)
 {
     if(dir->type!=IFS_FS_ENTRY_DIRECTORY)return IFS_FS_NOT_FOUND;
+    if(dir->flags&0x20000)return IFS_FS_UNSUPPORTED;
     Search s={.dir=dir,.name=name_,.length=len,.index=index};
     uint32_t blocks;uint64_t bytes;int rc=walk(v,dir,bl,&s,&blocks,&bytes);
     if(rc)return rc;
     if(s.next)return IFS_FS_CORRUPT;
     if(!s.found)return name_?IFS_FS_NOT_FOUND:IFS_FS_END;
-    if(s.entry.node.flags&0x20000)return IFS_FS_UNSUPPORTED;
     /* The native link record embeds a platform-specific device prefix.
      * Expose its type but do not manufacture a portable link target. */
     *out=s.entry;return IFS_FS_OK;
